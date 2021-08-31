@@ -12,3 +12,15 @@ insert into tasks(title, description) values
 ('task1', 'sone descrip'),
 ('task 2 ', 'description 2'); 
 
+
+
+
+
+
+
+DB_HOST=localhost
+DB_USER=root
+DB_PASSWORD=root
+DB_DATABASE=tasksdb
+
+
