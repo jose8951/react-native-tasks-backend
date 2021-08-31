@@ -1,0 +1,32 @@
+
+@api=http://localhost:3000/tasks
+
+
+get {{api}}
+
+###
+get {{api}}/3
+
+###
+get {{api}}/count
+
+###
+post {{api}}
+Content-Type: application/json
+
+{
+    "title": "primer title",
+    "description": "primer description"
+}
+
+###
+delete {{api}}/39
+
+###
+put {{api}}/38
+Content-Type: application/json
+
+{
+    "title": "cambio camvio",
+    "description": "cambio camvio description"
+}
